@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class EBConsumer {
 int consumer_number;
 String consumer_name;
