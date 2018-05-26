@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class EBConsumer {
+
 int consumer_number;
 String consumer_name;
 int previous_month_reading;

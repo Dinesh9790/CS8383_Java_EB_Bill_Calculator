@@ -38,3 +38,11 @@ Need to create a class Main with following members:
 - displayBill [For display the bill details to user]
 - main [Default and Primary need]
 
+## Algorithm
+
+1. Start the Process.
+2. Create an Object for class Main.
+3. Using Main class object get the user informations using getDatils method and read the information using scanner object.
+4. Call displayBill method
+	1. Call generateBill.
+	2. Calculate number of units consumed by current month reading - previous month reading.
