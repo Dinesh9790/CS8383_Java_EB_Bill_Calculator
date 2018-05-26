@@ -52,4 +52,9 @@ Need to create a class Main with following members:
 		3. Else
 			1. Compute with commercial scale using loop and find the sum
 		4. Store final sum as totalBillAmmount
-	
+	3. Display user's details [Consumer Number, Name, Number of units consumed].
+	4. Display bill amount.
+	5. Display Fare details.
+		1. If user is domestic display domestic scale.
+		2. Else display commercial scale.
+5. Stop the process
