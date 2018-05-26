@@ -19,3 +19,22 @@ If the type of the EB connection is commercial, calculate the amount to be paid 
 - 201 -500 units - Rs. 6 per unit
 - More than 501 units - Rs. 7 per unit
 
+## Problem Identified
+
+Need to create a class Main with following members:
+
+**Attributes**
+- Consumer Number
+- Consumer Name
+- Previous Month Reading
+- Current Month Reading
+- isDomestic [To Check with user for domestic or commercial connection ]
+
+**Methods**
+- getDetails [To get the user details mentioned in above attributes].
+- displayCommercialFare [For user identification]
+- displayDomesticFares [For user identification]
+- generateBill [For calculating the bill amount according to their connection type]
+- displayBill [For display the bill details to user]
+- main [Default and Primary need]
+
