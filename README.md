@@ -28,7 +28,8 @@ Need to create a class Main with following members:
 - Consumer Name
 - Previous Month Reading
 - Current Month Reading
-- isDomestic [To Check with user for domestic or commercial connection ]
+- isDomestic [To Check with user for domestic or commercial connection]
+- totalBillAmount
 
 **Methods**
 - getDetails [To get the user details mentioned in above attributes].
@@ -45,4 +46,10 @@ Need to create a class Main with following members:
 3. Using Main class object get the user informations using getDatils method and read the information using scanner object.
 4. Call displayBill method
 	1. Call generateBill.
-	2. Calculate number of units consumed by current month reading - previous month reading.
+		1. Calculate number of units consumed by current month reading - previous month reading.
+		2. If current user is domestic
+			1. Compute with domestic scale using loop and find the sum
+		3. Else
+			1. Compute with commercial scale using loop and find the sum
+		4. Store final sum as totalBillAmmount
+	
