@@ -79,10 +79,14 @@ public void displayBill() {
     System.out.println("Consumer Number : "+this.consumer_number);
     System.out.println("Consumer Name : "+this.consumer_name);
     System.out.println("Consumer Units Consumed:"+this.units_consumed);
-    if(this.isDomestic == true)
-        System.out.println("Your are an Domestic Consumer\nFare Details ...");
-    else
-        System.out.println("You are a Commercial Consumer\nFare Details ...");
+    if(this.isDomestic == true){
+        System.out.println("Your are an Domestic Consumer\n\nFare Details ...");
+        displayDomesticFares();
+    }
+    else{
+        System.out.println("You are a Commercial Consumer\n\nFare Details ...");
+        displayCommercialFare();
+    }
     System.out.println("\nAmount Payable is \u20B9: "+this.bill_ammount);
 }
 }
