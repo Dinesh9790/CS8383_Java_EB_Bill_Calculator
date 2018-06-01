@@ -3,6 +3,7 @@
 *Platform: JAVA*
 *Author: Rajasekaran S*
 *E-mail: kite.rajasekaran@gmail.com*
+*Demo: https://youtu.be/kYR6DV7UDoQ*
 
 ## Problem Statement
 Develop a Java application to generate Electricity bill. Create a class with the following members: *Consumer no., consumer name, previous month reading, current month reading, type of EB connection(i.e domestic or commercial).* Compute the bill amount using the following tariff.
